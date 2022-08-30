@@ -44,7 +44,7 @@ app.get('/products/:productId/reviews', async(req, res) => {
 
 
 
-//Get search results
+// Get search results
 app.get('/search/:searchQuery', async(req, res) => {
     const { searchQuery } = req.params
     try {
